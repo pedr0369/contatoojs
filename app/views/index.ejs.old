@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Bem-vindo</title>
+    
+    <script>
+    
+        var contato = document.querySelector('.contatos');
+        var total = 0;
+        var botao = document.querySelector('.botao_grava');
+        botao.addEventListener('click', function(event){
+            total++;
+            contatos.textContent = 'Contatos cadastrados: ' + total;
+        }, false);
+        
+    </script>
+    
+</head>
+<body>
+<h1>Bem-vindo ao <%=nome %></h1>
+    <a href="contato/">Contato</a>
+    
+    <button class="botao_grava">Novo</button>
+    <p class="contatos">Contatos cadastrados: 0</p>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "contatoojs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.6.7",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "express-load": "^1.1.15",
+    "method-override": "^2.1.3",
+    "mongodb": "^2.2.9",
+    "mongoose": "^4.5.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Franco",
+  "license": "ISC"
+}
